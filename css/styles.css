@@ -84,6 +84,8 @@ img {
 }
 
 .section-text {
+  margin-bottom: 8px;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -362,12 +364,13 @@ img {
 .cusromers-link:hover,
 .cusromers-link:focus {
   border-color: var(--hover-focus-color);
+  color: #404bbf;
 }
 
-.cusromers-link:hover .cusromers-icon,
+/* .cusromers-link:hover .cusromers-icon,
 .cusromers-link:focus .cusromers-icon {
   fill: var(--hover-focus-color);
-}
+} */
 
 .cusromers-icon {
   width: 104px;
